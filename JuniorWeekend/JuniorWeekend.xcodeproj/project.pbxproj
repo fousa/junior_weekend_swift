@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6284ADFD1D0C1103001DB03D /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */; };
 		62C573C71D0BF85A0034B6E6 /* JuniorWeekend.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62C573CF1D0BF8A10034B6E6 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */; };
 		62C573D21D0BF9FD0034B6E6 /* index.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 62C573D11D0BF9FD0034B6E6 /* index.mustache */; };
@@ -29,6 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PostgreSQL.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JuniorWeekend-cqwnbvxeukmfhuhfepijbtjwynma/Build/Products/Debug/PostgreSQL.framework"; sourceTree = "<group>"; };
 		62C573C31D0BF85A0034B6E6 /* JuniorWeekend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuniorWeekend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuniorWeekend.h; sourceTree = "<group>"; };
 		62C573C81D0BF85A0034B6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6284ADFD1D0C1103001DB03D /* PostgreSQL.framework in Frameworks */,
 				62C573CF1D0BF8A10034B6E6 /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +90,7 @@
 		62C573D31D0BFA210034B6E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */,
 				62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */,
 			);
 			name = Frameworks;

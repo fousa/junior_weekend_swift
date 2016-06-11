@@ -10,4 +10,7 @@
    <FileRef
       location = "group:Vendor/Perfect-1.0.0/PerfectServer/PerfectServer.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Vendor/Perfect-1.0.0/Connectors/PostgreSQL/PostgreSQL.xcodeproj">
+   </FileRef>
 </Workspace>
