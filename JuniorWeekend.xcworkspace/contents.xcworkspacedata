@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:JuniorWeekend/JuniorWeekend.xcodeproj">
+      location = "group:src/JuniorWeekend.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Vendor/Perfect-1.0.0/PerfectLib/PerfectLib.xcodeproj">
