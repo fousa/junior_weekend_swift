@@ -1,5 +1,5 @@
 //
-//  IndexHandler.swift
+//  RegistrationsHandler.swift
 //  JuniorWeekend
 //
 //  Created by Jelle Vandebeeck on 11/06/16.
@@ -9,18 +9,10 @@
 import Foundation
 import PerfectLib
 
-class IndexHandler: PageHandler {
+class RegistrationsHandler: PageHandler {
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
         var values = MustacheEvaluationContext.MapType()
-        
-        if let
-            request = context.webRequest,
-            params = request.params() {
-            if params.count > 0 {
-                values["name"] = params.first
-            }
-        }
         
         values["title"] = "Juniorenweekend 2016"
         

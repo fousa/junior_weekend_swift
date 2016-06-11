@@ -1,0 +1,17 @@
+{{% handler:RegistrationsHandler }}
+
+<html>
+<head>
+  <title>{{title}}</title>
+</head>
+<body>
+  <h1>Juniorenweekend 2016</h1>
+  <h2>Registraties</h2>
+
+  <ul>
+    {{#registrations}}
+      <li>{{name}}</li>
+    {{/registrations}}
+  </ul>
+</body>
+</html>
