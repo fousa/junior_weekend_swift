@@ -37,21 +37,21 @@ all: Postgre
 
 install:
 				mv $(TARGET).so ../PerfectLibraries
-        mv $(MUSTACHE_ROOT)/* ../webroot
+				mv $(MUSTACHE_ROOT)/* ../webroot
 
 modulecache:
-        @mkdir -p $(MODULE_CACHE_PATH)
+				@mkdir -p $(MODULE_CACHE_PATH)
 
 $(TARGET): modulecache
-        @mkdir -p $(MODULE_CACHE_PATH)
+				@mkdir -p $(MODULE_CACHE_PATH)
 
 $(TARGET): modulecache
-        $(SWIFTC) $(SWIFTC_FLAGS) $(SWIFT_FILES) -o $@.o -module-name $@ -emit-module-path $@.swiftmodule
-        clang++ $(Perfect_FLAGS) $@.o -o $@.so
+				$(SWIFTC) $(SWIFTC_FLAGS) $(SWIFT_FILES) -o $@.o -module-name $@ -emit-module-path $@.swiftmodule
+				clang++ $(Perfect_FLAGS) $@.o -o $@.so
 
 Postgre: $(TARGET)
-        cd /app/.delta/usr/src/perfect/Connectors/PostgreSQL && make && cd ../..
-        clang++ $(PostgreSQL_FLAGS) $(TARGET).o -o $(TARGET).so
+				cd /app/.delta/usr/src/perfect/Connectors/PostgreSQL && make && cd ../..
+				clang++ $(PostgreSQL_FLAGS) $(TARGET).o -o $(TARGET).so
 
 clean:
-        @rm *.o
+				@rm *.o
