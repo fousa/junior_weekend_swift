@@ -9,13 +9,32 @@
 /* Begin PBXBuildFile section */
 		62C573C71D0BF85A0034B6E6 /* JuniorWeekend.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62C573CF1D0BF8A10034B6E6 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */; };
+		62C573D21D0BF9FD0034B6E6 /* index.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 62C573D11D0BF9FD0034B6E6 /* index.mustache */; };
+		62C573D51D0BFA460034B6E6 /* IndexHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C573D41D0BFA460034B6E6 /* IndexHandler.swift */; };
+		62C573D71D0BFD820034B6E6 /* index.mustache in Copy template files */ = {isa = PBXBuildFile; fileRef = 62C573D11D0BF9FD0034B6E6 /* index.mustache */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62C573D61D0BFD470034B6E6 /* Copy template files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = webroot;
+			dstSubfolderSpec = 16;
+			files = (
+				62C573D71D0BFD820034B6E6 /* index.mustache in Copy template files */,
+			);
+			name = "Copy template files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		62C573C31D0BF85A0034B6E6 /* JuniorWeekend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuniorWeekend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuniorWeekend.h; sourceTree = "<group>"; };
 		62C573C81D0BF85A0034B6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JuniorWeekend-cqwnbvxeukmfhuhfepijbtjwynma/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
+		62C573D11D0BF9FD0034B6E6 /* index.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = index.mustache; sourceTree = "<group>"; };
+		62C573D41D0BFA460034B6E6 /* IndexHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +52,7 @@
 		62C573B91D0BF85A0034B6E6 = {
 			isa = PBXGroup;
 			children = (
-				62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */,
+				62C573D31D0BFA210034B6E6 /* Frameworks */,
 				62C573C51D0BF85A0034B6E6 /* JuniorWeekend */,
 				62C573C41D0BF85A0034B6E6 /* Products */,
 			);
@@ -50,10 +69,44 @@
 		62C573C51D0BF85A0034B6E6 /* JuniorWeekend */ = {
 			isa = PBXGroup;
 			children = (
-				62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */,
+				62C573D91D0BFEF50034B6E6 /* App */,
 				62C573C81D0BF85A0034B6E6 /* Info.plist */,
+				62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */,
 			);
 			path = JuniorWeekend;
+			sourceTree = "<group>";
+		};
+		62C573D01D0BF9EF0034B6E6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62C573D11D0BF9FD0034B6E6 /* index.mustache */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		62C573D31D0BFA210034B6E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62C573D81D0BFEEF0034B6E6 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				62C573D41D0BFA460034B6E6 /* IndexHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		62C573D91D0BFEF50034B6E6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				62C573D81D0BFEEF0034B6E6 /* Handlers */,
+				62C573D01D0BF9EF0034B6E6 /* Views */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +131,7 @@
 				62C573BF1D0BF85A0034B6E6 /* Frameworks */,
 				62C573C01D0BF85A0034B6E6 /* Headers */,
 				62C573C11D0BF85A0034B6E6 /* Resources */,
+				62C573D61D0BFD470034B6E6 /* Copy template files */,
 			);
 			buildRules = (
 			);
@@ -124,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C573D21D0BF9FD0034B6E6 /* index.mustache in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C573D51D0BFA460034B6E6 /* IndexHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +287,7 @@
 		62C573CC1D0BF85A0034B6E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEPLOYMENT_LOCATION = YES;
@@ -245,12 +302,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = be.fousa.JuniorWeekend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		62C573CD1D0BF85A0034B6E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DEPLOYMENT_LOCATION = YES;
@@ -287,6 +346,7 @@
 				62C573CD1D0BF85A0034B6E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
