@@ -9,15 +9,24 @@
 import PerfectLib
 import PostgreSQL
 
+#if os(Linux)
+    import Glibc
+#else
+    import Darwin
+#endif
+
 class RegistrationsHandler: PageHandler {
     
-    private let host = "localhost"
-    private let name = "junior_weekend_2016"
-    private let username = ""
-    private let password = ""
+    private func getEnvVar(name: String) -> String {
+        return String.fromCString(getenv(name)) ?? ""
+    }
+    
+    private lazy var host: String = self.getEnvVar("DATABASE_HOST")
+    private lazy var name: String = self.getEnvVar("DATABASE_NAME")
+    private lazy var username: String = self.getEnvVar("DATABASE_USER")
+    private lazy var password: String = self.getEnvVar("DATABASE_PASS")
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
-        
         // Connect to the database.
         let connection = PostgreSQL.PGConnection()
         connection.connectdb("host='\(host)' dbname='\(name)' user='\(username)' password='\(password)'")
