@@ -7,7 +7,7 @@ SWIFT_FILES = $(TARGET)/App/Handlers/IndexHandler.swift \
                 $(TARGET)/App/Init.swift
 
 # Prepare the Mustache root.
-MUSTACHE_ROOT = $(TARGET)/App/Mustache
+MUSTACHE_ROOT = $(TARGET)/App/Views
 
 # Prepare the Perfect root.
 PERFECT_ROOT = /app/.delta/usr/src/perfect/PerfectLib
