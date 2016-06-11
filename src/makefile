@@ -36,7 +36,7 @@ PostgreSQL_FLAGS = $(SHLIB_PATH) -luuid -lswiftCore -lswiftGlibc /app/.delta/usr
 all: Postgre
 
 install:
-        mv $(TARGET).so ../PerfectLibraries
+				mv $(TARGET).so ../PerfectLibraries
         mv $(MUSTACHE_ROOT)/* ../webroot
 
 modulecache:
