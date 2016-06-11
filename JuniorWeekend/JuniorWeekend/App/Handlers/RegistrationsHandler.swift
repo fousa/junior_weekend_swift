@@ -14,7 +14,7 @@ class RegistrationsHandler: PageHandler {
     
     private let host = "localhost"
     private let name = "junior_weekend_2016"
-    private let username = "" // could be hornet
+    private let username = ""
     private let password = ""
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
@@ -40,9 +40,9 @@ class RegistrationsHandler: PageHandler {
         
         var registrations = [[String: Any]]()
         
-        0.stride(to: query.numFields(), by: 1).forEach { row in
+        0.stride(to: query.numTuples(), by: 1).forEach { row in
             var registration = [String: Any]()
-            0.stride(to: query.numTuples(), by: 1).forEach { column in
+            0.stride(to: query.numFields(), by: 1).forEach { column in
                 if let fieldName = query.fieldName(column) where fieldName == "name" {
                     print("🤘 \(row): \(query.getFieldString(row, fieldIndex: column))")
                     registration["name"] = query.getFieldString(row, fieldIndex: column)

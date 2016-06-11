@@ -8,8 +8,14 @@
 
 import Foundation
 import PerfectLib
+import PostgreSQL
 
 class IndexHandler: PageHandler {
+    
+    private let host = "localhost"
+    private let name = "junior_weekend_2016"
+    private let username = ""
+    private let password = ""
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
         var values = MustacheEvaluationContext.MapType()
@@ -18,7 +24,24 @@ class IndexHandler: PageHandler {
             request = context.webRequest,
             params = request.params() {
             if params.count > 0 {
-                values["name"] = params.first
+                // Connect to the database.
+                let connection = PostgreSQL.PGConnection()
+                connection.connectdb("host='\(host)' dbname='\(name)' user='\(username)' password='\(password)'")
+                defer {
+                    // Always close the connection at the end.
+                    connection.close()
+                }
+                
+                // Check if the connection can be opened.
+                guard connection.status() != .Bad else {
+                    throw PerfectError.FileError(500, "Internal Server Error - Failed to connect to database")
+                }
+                
+                let query = connection.exec("INSERT INTO \"registrations\"(\"name\") VALUES (E'\(params.first)');")
+                // Check if the query succeeded.
+                guard query.status() == .CommandOK || query.status() == .TuplesOK else {
+                    throw PerfectError.FileError(500, "Internal Server Error - \(query.errorMessage())")
+                }
             }
         }
         
