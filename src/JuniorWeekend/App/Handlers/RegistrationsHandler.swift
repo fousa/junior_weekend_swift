@@ -15,6 +15,13 @@ import PostgreSQL
     import Darwin
 #endif
 
+enum Logger {
+    static func info(string: String) {
+        fputs(string, stdout)
+        fflush(stdout)
+    }
+}
+
 class RegistrationsHandler: PageHandler {
     
     private func getEnvVar(name: String) -> String {
