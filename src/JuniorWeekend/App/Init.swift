@@ -6,7 +6,6 @@
 //  Copyright © 2016 Fousa. All rights reserved.
 //
 
-import Foundation
 import PerfectLib
 
 public func PerfectServerModuleInit() {
