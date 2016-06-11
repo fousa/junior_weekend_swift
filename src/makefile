@@ -4,7 +4,7 @@ OS = $(shell uname)
 # Prepare a list of Swift files.
 SWIFT_FILES = $(TARGET)/App/Handlers/IndexHandler.swift \
                 $(TARGET)/App/Handlers/RegistrationsHandler.swift \
-                $(TARGET)/App/Handlers/Init.swift
+                $(TARGET)/App/Init.swift
 
 # Prepare the Mustache root.
 MUSTACHE_ROOT = $(TARGET)/App/Mustache
