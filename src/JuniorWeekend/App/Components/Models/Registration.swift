@@ -12,6 +12,25 @@ struct Registration {
     
     var name: String?
     
+    // MARK: - Init
+    
+    init() {
+    }
+    
+    init?(params: [(String,String)]) {
+        for (key, value) in params {
+            switch key {
+            case "name": name = value
+            default:
+                break
+            }
+        }
+        
+        guard let _ = name else {
+            return nil
+        }
+    }
+    
     // MARK: - Template
     
     var mustache: MustacheEvaluationContext.MapType {

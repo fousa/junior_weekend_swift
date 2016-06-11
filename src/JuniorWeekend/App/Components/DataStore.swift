@@ -79,8 +79,8 @@ class DataStore {
         return registrations
     }
     
-    func addRegistration(withParams params: [(String,String)]) throws {
-        let query = connection.exec("INSERT INTO \"registrations\"(\"name\") VALUES (E'\(params.first)');")
+    func add(registration registration: Registration) throws {
+        let query = connection.exec("INSERT INTO \"registrations\"(\"name\") VALUES (E'\(registration.name!)');")
         guard query.status() == .CommandOK || query.status() == .TuplesOK else {
             throw PerfectError.FileError(500, "Internal Server Error\n\(query.errorMessage())")
         }

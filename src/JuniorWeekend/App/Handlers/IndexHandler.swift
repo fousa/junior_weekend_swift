@@ -17,7 +17,9 @@ class IndexHandler: PageHandler {
             request = context.webRequest,
             params = request.params() {
             if params.count > 0 {
-                try DataStore().addRegistration(withParams: params)
+                if let registration = Registration(params: params) {
+                    try DataStore().add(registration: registration)
+                }
             }
         }
         
