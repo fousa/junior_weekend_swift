@@ -6,7 +6,10 @@ OS = $(shell uname)
 # Prepare a list of Swift files.
 SWIFT_FILES = $(TARGET)/App/Handlers/IndexHandler.swift \
                 $(TARGET)/App/Handlers/RegistrationsHandler.swift \
-                $(TARGET)/App/Init.swift
+                $(TARGET)/App/Init.swift \
+								$(TARGET)/App/Components/DataStore.swift \
+								$(TARGET)/App/Components/Logger.swift \
+								$(TARGET)/App/Components/Models/Registration.swift
 
 # Prepare the Mustache root.
 MUSTACHE_ROOT = $(TARGET)/App/Views
