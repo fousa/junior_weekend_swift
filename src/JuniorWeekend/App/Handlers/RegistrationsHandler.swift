@@ -31,7 +31,7 @@ class RegistrationsHandler: PageHandler {
     private lazy var host: String = self.getEnvVar("DATABASE_HOST")
     private lazy var name: String = self.getEnvVar("DATABASE_NAME")
     private lazy var username: String = self.getEnvVar("DATABASE_USER")
-    private lazy var password: String = self.getEnvVar("DATABASE_PASS")
+    private lazy var password: String = self.getEnvVar("DATABASE_PASSWORD")
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
         // Connect to the database.
