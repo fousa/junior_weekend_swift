@@ -67,8 +67,16 @@ class DataStore {
         return objects
     }
     
-    func fetchRegistrations() throws -> [[String: Any]] {
-        return try perform(queryString: "SELECT * FROM registrations;")
+    func fetchRegistrations() throws -> [Registration] {
+        let objects = try perform(queryString: "SELECT * FROM registrations;")
+        
+        var registrations = [Registration]()
+        for object in objects {
+            var registration = Registration()
+            registration.name = object["name"] as? String
+            registrations.append(registration)
+        }
+        return registrations
     }
     
     func addRegistration(withParams params: [(String,String)]) throws {

@@ -15,7 +15,7 @@ class RegistrationsHandler: PageHandler {
         
         var values = MustacheEvaluationContext.MapType()
         values["title"] = "Registrations"
-        values["registrations"] = registrations
+        values["registrations"] = registrations.flatMap { $0.mustache } as MustacheEvaluationContext.SequenceType
         values["count"] = registrations.count
         return values
     }
