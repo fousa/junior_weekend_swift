@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		62C573C71D0BF85A0034B6E6 /* JuniorWeekend.h in Headers */ = {isa = PBXBuildFile; fileRef = 62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C573CF1D0BF8A10034B6E6 /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62C573C31D0BF85A0034B6E6 /* JuniorWeekend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JuniorWeekend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C573C61D0BF85A0034B6E6 /* JuniorWeekend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuniorWeekend.h; sourceTree = "<group>"; };
 		62C573C81D0BF85A0034B6E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PerfectLib.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JuniorWeekend-cqwnbvxeukmfhuhfepijbtjwynma/Build/Products/Debug/PerfectLib.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C573CF1D0BF8A10034B6E6 /* PerfectLib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,6 +33,7 @@
 		62C573B91D0BF85A0034B6E6 = {
 			isa = PBXGroup;
 			children = (
+				62C573CE1D0BF8A10034B6E6 /* PerfectLib.framework */,
 				62C573C51D0BF85A0034B6E6 /* JuniorWeekend */,
 				62C573C41D0BF85A0034B6E6 /* Products */,
 			);
@@ -229,16 +233,18 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = JuniorWeekend/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = /PerfectLibraries;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.fousa.JuniorWeekend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
@@ -247,16 +253,18 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(CONFIGURATION_BUILD_DIR)";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = JuniorWeekend/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				INSTALL_PATH = /PerfectLibraries;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = be.fousa.JuniorWeekend;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
