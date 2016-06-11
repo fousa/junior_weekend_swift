@@ -20,7 +20,18 @@ public func PerfectServerModuleInit() {
 class IndexHandler: PageHandler {
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
-        let values = MustacheEvaluationContext.MapType()
+        var values = MustacheEvaluationContext.MapType()
+        
+        if let
+            request = context.webRequest,
+            params = request.params() {
+            if params.count > 0 {
+                values["name"] = params.first
+            }
+        }
+        
+        values["title"] = "Juniorenweekend 2016"
+        
         return values
     }
     
