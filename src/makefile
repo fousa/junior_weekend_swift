@@ -1,3 +1,5 @@
+# Makefile for JuniorWeekend
+
 TARGET = JuniorWeekend
 OS = $(shell uname)
 
