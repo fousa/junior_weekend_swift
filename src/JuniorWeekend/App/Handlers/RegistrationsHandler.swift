@@ -44,13 +44,13 @@ class RegistrationsHandler: PageHandler {
         
         // Check if the connection can be opened.
         guard connection.status() != .Bad else {
-            throw PerfectError.FileError(500, "Internal Server Error - Failed to connect to database")
+            throw PerfectError.FileError(500, "Internal Server Error - \(connection.errorMessage())")
         }
         
         let query = connection.exec("SELECT * FROM registrations;")
         // Check if the query succeeded.
         guard query.status() == .CommandOK || query.status() == .TuplesOK else {
-            throw PerfectError.FileError(500, "Internal Server Error - Failed to query the database")
+            throw PerfectError.FileError(500, "Internal Server Error - \(connection.errorMessage())")
         }
         
         var registrations = [[String: Any]]()
