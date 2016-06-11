@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		621E34C21D0CBA3C00DE5933 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621E34C11D0CBA3C00DE5933 /* DataStore.swift */; };
+		621E34C41D0CBE1000DE5933 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621E34C31D0CBE1000DE5933 /* Logger.swift */; };
 		6284ADFD1D0C1103001DB03D /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */; };
 		6284ADFF1D0C1127001DB03D /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284ADFE1D0C1127001DB03D /* Init.swift */; };
 		6284AE011D0C117C001DB03D /* RegistrationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		621E34C11D0CBA3C00DE5933 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		621E34C31D0CBE1000DE5933 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PostgreSQL.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JuniorWeekend-cqwnbvxeukmfhuhfepijbtjwynma/Build/Products/Debug/PostgreSQL.framework"; sourceTree = "<group>"; };
 		6284ADFE1D0C1127001DB03D /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationsHandler.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				621E34C11D0CBA3C00DE5933 /* DataStore.swift */,
+				621E34C31D0CBE1000DE5933 /* Logger.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621E34C41D0CBE1000DE5933 /* Logger.swift in Sources */,
 				6284ADFF1D0C1127001DB03D /* Init.swift in Sources */,
 				621E34C21D0CBA3C00DE5933 /* DataStore.swift in Sources */,
 				6284AE011D0C117C001DB03D /* RegistrationsHandler.swift in Sources */,

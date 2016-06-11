@@ -8,19 +8,6 @@
 
 import PerfectLib
 
-#if os(Linux)
-    import Glibc
-#else
-    import Darwin
-#endif
-
-enum Logger {
-    static func info(string: String) {
-        fputs(string, stdout)
-        fflush(stdout)
-    }
-}
-
 class RegistrationsHandler: PageHandler {
     
     func valuesForResponse(context: MustacheEvaluationContext, collector: MustacheEvaluationOutputCollector) throws -> MustacheEvaluationContext.MapType {
