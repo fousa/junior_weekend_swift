@@ -48,7 +48,6 @@ class DataStore {
     // MARK: - Registrations
     
     private func perform(queryString queryString: String) throws -> [[String: Any]] {
-        // Query the database.
         let query = connection.exec(queryString)
         guard query.status() == .CommandOK || query.status() == .TuplesOK else {
             throw PerfectError.FileError(500, "Internal Server Error\n\(connection.errorMessage())")
@@ -70,6 +69,13 @@ class DataStore {
     
     func fetchRegistrations() throws -> [[String: Any]] {
         return try perform(queryString: "SELECT * FROM registrations;")
+    }
+    
+    func addRegistration(withParams params: [(String,String)]) throws {
+        let query = connection.exec("INSERT INTO \"registrations\"(\"name\") VALUES (E'\(params.first)');")
+        guard query.status() == .CommandOK || query.status() == .TuplesOK else {
+            throw PerfectError.FileError(500, "Internal Server Error\n\(query.errorMessage())")
+        }
     }
     
 }
