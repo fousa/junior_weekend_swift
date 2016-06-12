@@ -215,7 +215,7 @@
 				621E34DC1D0D561100DE5933 /* wow.min.js */,
 			);
 			name = Javascript;
-			path = JuniorWeekend/App/Views/Javascript;
+			path = JuniorWeekend/App/Views;
 			sourceTree = SOURCE_ROOT;
 		};
 		621E34DD1D0D561100DE5933 /* Stylesheets */ = {
@@ -229,7 +229,7 @@
 				621E34E21D0D561100DE5933 /* style.css */,
 			);
 			name = Stylesheets;
-			path = JuniorWeekend/App/Views/Stylesheets;
+			path = JuniorWeekend/App/Views;
 			sourceTree = SOURCE_ROOT;
 		};
 		621E34FB1D0D577300DE5933 /* Images */ = {
@@ -238,7 +238,7 @@
 				621E35001D0D58EB00DE5933 /* bg_pattern.png */,
 				621E34FC1D0D577300DE5933 /* background.jpg */,
 			);
-			path = Images;
+			name = Images;
 			sourceTree = "<group>";
 		};
 		621E35041D0D597300DE5933 /* Fonts */ = {
@@ -260,7 +260,7 @@
 				621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */,
 				621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */,
 			);
-			path = Fonts;
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		62C573B91D0BF85A0034B6E6 = {

@@ -42,7 +42,7 @@ all: Postgre
 
 install:
 				mv $(TARGET).so ../PerfectLibraries
-				mv $(MUSTACHE_ROOT)/**/* ../webroot
+				mv $(MUSTACHE_ROOT)/* ../webroot
 
 modulecache:
 				@mkdir -p $(MODULE_CACHE_PATH)
