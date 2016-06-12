@@ -100,7 +100,11 @@ jQuery(document).ready(function() {
 jQuery(document).ready(function () {
 	if($('.slider-background').length > 0){
 		$.backstretch([
-			"background.jpg"
+			"background0.jpg",
+			"background1.jpg",
+			"background2.jpg",
+			"background3.jpg",
+			"background4.jpg"
 		], {duration: 4000, fade: 1000});
 	}
 });
@@ -289,7 +293,7 @@ example is taken from jqBootstrapValidation docs
 
 
 $(document).ready(function() {
-	if($('#contactForm').length > 0){
+	if($('#register').length > 0){
 		$("input,textarea").jqBootstrapValidation({
 			preventSubmit: true,
 			submitError: function($form, event, errors) {
@@ -301,19 +305,17 @@ $(document).ready(function() {
 				// get values from FORM
 				var name = $("input#name").val();
 				var email = $("input#email").val();
-				var message = $("textarea#message").val();
 				var firstName = name; // For Success/Failure Message
 				// Check for white space in name for Success/Fail message
 				if (firstName.indexOf(' ') >= 0) {
 					firstName = name.split(' ').slice(0, -1).join(' ');
 				}
 				$.ajax({
-					url: "contact-process.php",
+					url: "/form",
 					type: "POST",
 					data: {
 						name: name,
-						email: email,
-						message: message
+						email: email
 					},
 					cache: false,
 					success: function() {
@@ -327,7 +329,7 @@ $(document).ready(function() {
 						.append('</div>');
 
 						//clear all fields
-						$('#contactForm').trigger("reset");
+						$('#subscribe').trigger("reset");
 					},
 					error: function() {
 						// Fail message
@@ -337,7 +339,7 @@ $(document).ready(function() {
 						$('#success > .alert-danger').append("Sorry " + firstName + " it seems that my mail server is not responding... Could you please email me directly to <a href='mailto:me@example.com?Subject=Message_Me from myprogrammingblog.com;>me@example.com</a> ? Sorry for the inconvenience!");
 						$('#success > .alert-danger').append('</div>');
 						//clear all fields
-						$('#contactForm').trigger("reset");
+						$('#subscribe').trigger("reset");
 					},
 				})
 			},

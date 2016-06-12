@@ -10,6 +10,10 @@ import PerfectLib
 
 public func PerfectServerModuleInit() {
     
+    PageHandlerRegistry.addPageHandler("FormHandler") { (response: WebResponse) -> PageHandler in
+        return FormHandler()
+    }
+    
     PageHandlerRegistry.addPageHandler("IndexHandler") { (response: WebResponse) -> PageHandler in
         return IndexHandler()
     }

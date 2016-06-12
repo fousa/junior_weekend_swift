@@ -34,8 +34,6 @@
 		621E34F81D0D562900DE5933 /* font-awesome.min.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34E01D0D561100DE5933 /* font-awesome.min.css */; };
 		621E34F91D0D562900DE5933 /* simple-line-icons.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34E11D0D561100DE5933 /* simple-line-icons.css */; };
 		621E34FA1D0D562900DE5933 /* style.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34E21D0D561100DE5933 /* style.css */; };
-		621E34FD1D0D577300DE5933 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 621E34FC1D0D577300DE5933 /* background.jpg */; };
-		621E34FE1D0D578200DE5933 /* background.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34FC1D0D577300DE5933 /* background.jpg */; };
 		621E35011D0D58EB00DE5933 /* bg_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 621E35001D0D58EB00DE5933 /* bg_pattern.png */; };
 		621E35021D0D590B00DE5933 /* bg_pattern.png in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35001D0D58EB00DE5933 /* bg_pattern.png */; };
 		621E35031D0D590B00DE5933 /* bootstrap.min.css.map in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34FF1D0D58D900DE5933 /* bootstrap.min.css.map */; };
@@ -69,6 +67,22 @@
 		621E352F1D0D597C00DE5933 /* Simple-Line-Icons.svg in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35111D0D597300DE5933 /* Simple-Line-Icons.svg */; };
 		621E35301D0D597C00DE5933 /* Simple-Line-Icons.ttf in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */; };
 		621E35311D0D597C00DE5933 /* Simple-Line-Icons.woff in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */; };
+		621E35331D0D782F00DE5933 /* FormHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621E35321D0D782F00DE5933 /* FormHandler.swift */; };
+		621E35351D0D78CE00DE5933 /* form.mustache in Resources */ = {isa = PBXBuildFile; fileRef = 621E35341D0D78CE00DE5933 /* form.mustache */; };
+		621E35361D0D78D900DE5933 /* form.mustache in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35341D0D78CE00DE5933 /* form.mustache */; };
+		621E35381D0D7C3B00DE5933 /* jqBootstrapValidation.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E35371D0D7C3B00DE5933 /* jqBootstrapValidation.js */; };
+		621E35391D0D7C4A00DE5933 /* bootstrap.min.css.map in Resources */ = {isa = PBXBuildFile; fileRef = 621E34FF1D0D58D900DE5933 /* bootstrap.min.css.map */; };
+		621E353A1D0D7C5100DE5933 /* jqBootstrapValidation.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35371D0D7C3B00DE5933 /* jqBootstrapValidation.js */; };
+		6259596C1D0D8005005B5F90 /* background0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625959671D0D8005005B5F90 /* background0.jpg */; };
+		6259596D1D0D8005005B5F90 /* background1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625959681D0D8005005B5F90 /* background1.jpg */; };
+		6259596E1D0D8005005B5F90 /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 625959691D0D8005005B5F90 /* background2.jpg */; };
+		6259596F1D0D8005005B5F90 /* background3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6259596A1D0D8005005B5F90 /* background3.jpg */; };
+		625959701D0D8005005B5F90 /* background4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6259596B1D0D8005005B5F90 /* background4.jpg */; };
+		625959711D0D800E005B5F90 /* background0.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 625959671D0D8005005B5F90 /* background0.jpg */; };
+		625959721D0D800E005B5F90 /* background1.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 625959681D0D8005005B5F90 /* background1.jpg */; };
+		625959731D0D800E005B5F90 /* background2.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 625959691D0D8005005B5F90 /* background2.jpg */; };
+		625959741D0D800E005B5F90 /* background3.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 6259596A1D0D8005005B5F90 /* background3.jpg */; };
+		625959751D0D800E005B5F90 /* background4.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 6259596B1D0D8005005B5F90 /* background4.jpg */; };
 		6284ADFD1D0C1103001DB03D /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */; };
 		6284ADFF1D0C1127001DB03D /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284ADFE1D0C1127001DB03D /* Init.swift */; };
 		6284AE011D0C117C001DB03D /* RegistrationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */; };
@@ -88,6 +102,13 @@
 			dstPath = webroot;
 			dstSubfolderSpec = 16;
 			files = (
+				625959711D0D800E005B5F90 /* background0.jpg in Copy template files */,
+				625959721D0D800E005B5F90 /* background1.jpg in Copy template files */,
+				625959731D0D800E005B5F90 /* background2.jpg in Copy template files */,
+				625959741D0D800E005B5F90 /* background3.jpg in Copy template files */,
+				625959751D0D800E005B5F90 /* background4.jpg in Copy template files */,
+				621E353A1D0D7C5100DE5933 /* jqBootstrapValidation.js in Copy template files */,
+				621E35361D0D78D900DE5933 /* form.mustache in Copy template files */,
 				621E35231D0D597C00DE5933 /* fontawesome-webfont.eot in Copy template files */,
 				621E35241D0D597C00DE5933 /* fontawesome-webfont.svg in Copy template files */,
 				621E35251D0D597C00DE5933 /* fontawesome-webfont.ttf in Copy template files */,
@@ -105,7 +126,6 @@
 				621E35311D0D597C00DE5933 /* Simple-Line-Icons.woff in Copy template files */,
 				621E35021D0D590B00DE5933 /* bg_pattern.png in Copy template files */,
 				621E35031D0D590B00DE5933 /* bootstrap.min.css.map in Copy template files */,
-				621E34FE1D0D578200DE5933 /* background.jpg in Copy template files */,
 				621E34F61D0D562900DE5933 /* animate.min.css in Copy template files */,
 				621E34F71D0D562900DE5933 /* bootstrap.min.css in Copy template files */,
 				621E34F81D0D562900DE5933 /* font-awesome.min.css in Copy template files */,
@@ -142,7 +162,6 @@
 		621E34E01D0D561100DE5933 /* font-awesome.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "font-awesome.min.css"; sourceTree = "<group>"; };
 		621E34E11D0D561100DE5933 /* simple-line-icons.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "simple-line-icons.css"; sourceTree = "<group>"; };
 		621E34E21D0D561100DE5933 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
-		621E34FC1D0D577300DE5933 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		621E34FF1D0D58D900DE5933 /* bootstrap.min.css.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = bootstrap.min.css.map; sourceTree = "<group>"; };
 		621E35001D0D58EB00DE5933 /* bg_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_pattern.png; sourceTree = "<group>"; };
 		621E35051D0D597300DE5933 /* fontawesome-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.eot"; sourceTree = "<group>"; };
@@ -160,6 +179,14 @@
 		621E35111D0D597300DE5933 /* Simple-Line-Icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Simple-Line-Icons.svg"; sourceTree = "<group>"; };
 		621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple-Line-Icons.ttf"; sourceTree = "<group>"; };
 		621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple-Line-Icons.woff"; sourceTree = "<group>"; };
+		621E35321D0D782F00DE5933 /* FormHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormHandler.swift; sourceTree = "<group>"; };
+		621E35341D0D78CE00DE5933 /* form.mustache */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = form.mustache; sourceTree = "<group>"; };
+		621E35371D0D7C3B00DE5933 /* jqBootstrapValidation.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jqBootstrapValidation.js; sourceTree = "<group>"; };
+		625959671D0D8005005B5F90 /* background0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background0.jpg; sourceTree = "<group>"; };
+		625959681D0D8005005B5F90 /* background1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background1.jpg; sourceTree = "<group>"; };
+		625959691D0D8005005B5F90 /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		6259596A1D0D8005005B5F90 /* background3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background3.jpg; sourceTree = "<group>"; };
+		6259596B1D0D8005005B5F90 /* background4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background4.jpg; sourceTree = "<group>"; };
 		6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PostgreSQL.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JuniorWeekend-cqwnbvxeukmfhuhfepijbtjwynma/Build/Products/Debug/PostgreSQL.framework"; sourceTree = "<group>"; };
 		6284ADFE1D0C1127001DB03D /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationsHandler.swift; sourceTree = "<group>"; };
@@ -206,6 +233,7 @@
 		621E34D51D0D561100DE5933 /* Javascript */ = {
 			isa = PBXGroup;
 			children = (
+				621E35371D0D7C3B00DE5933 /* jqBootstrapValidation.js */,
 				621E34D61D0D561100DE5933 /* backstretch.min.js */,
 				621E34D71D0D561100DE5933 /* bootstrap.min.js */,
 				621E34D81D0D561100DE5933 /* jquery-1.11.3.min.js */,
@@ -235,8 +263,12 @@
 		621E34FB1D0D577300DE5933 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				625959671D0D8005005B5F90 /* background0.jpg */,
+				625959681D0D8005005B5F90 /* background1.jpg */,
+				625959691D0D8005005B5F90 /* background2.jpg */,
+				6259596A1D0D8005005B5F90 /* background3.jpg */,
+				6259596B1D0D8005005B5F90 /* background4.jpg */,
 				621E35001D0D58EB00DE5933 /* bg_pattern.png */,
-				621E34FC1D0D577300DE5933 /* background.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -294,6 +326,7 @@
 			isa = PBXGroup;
 			children = (
 				621E35041D0D597300DE5933 /* Fonts */,
+				621E35341D0D78CE00DE5933 /* form.mustache */,
 				621E34FB1D0D577300DE5933 /* Images */,
 				62C573D11D0BF9FD0034B6E6 /* index.mustache */,
 				621E34D51D0D561100DE5933 /* Javascript */,
@@ -317,6 +350,7 @@
 			children = (
 				62C573D41D0BFA460034B6E6 /* IndexHandler.swift */,
 				6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */,
+				621E35321D0D782F00DE5933 /* FormHandler.swift */,
 			);
 			path = Handlers;
 			sourceTree = "<group>";
@@ -401,32 +435,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6259596E1D0D8005005B5F90 /* background2.jpg in Resources */,
+				621E35391D0D7C4A00DE5933 /* bootstrap.min.css.map in Resources */,
 				621E34EB1D0D561100DE5933 /* bootstrap.min.css in Resources */,
 				6284AE031D0C1199001DB03D /* registrations.mustache in Resources */,
 				621E351C1D0D597300DE5933 /* glyphicons-halflings-regular.ttf in Resources */,
 				621E34E81D0D561100DE5933 /* smooth-scroll.js in Resources */,
 				621E35201D0D597300DE5933 /* Simple-Line-Icons.svg in Resources */,
+				625959701D0D8005005B5F90 /* background4.jpg in Resources */,
 				621E34E31D0D561100DE5933 /* backstretch.min.js in Resources */,
 				621E351E1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 in Resources */,
 				621E351B1D0D597300DE5933 /* glyphicons-halflings-regular.svg in Resources */,
 				621E35141D0D597300DE5933 /* fontawesome-webfont.eot in Resources */,
+				621E35351D0D78CE00DE5933 /* form.mustache in Resources */,
 				62C573D21D0BF9FD0034B6E6 /* index.mustache in Resources */,
 				621E34E91D0D561100DE5933 /* wow.min.js in Resources */,
 				621E351A1D0D597300DE5933 /* glyphicons-halflings-regular.eot in Resources */,
-				621E34FD1D0D577300DE5933 /* background.jpg in Resources */,
 				621E35011D0D58EB00DE5933 /* bg_pattern.png in Resources */,
 				621E35151D0D597300DE5933 /* fontawesome-webfont.svg in Resources */,
 				621E35171D0D597300DE5933 /* fontawesome-webfont.woff in Resources */,
 				621E34EC1D0D561100DE5933 /* font-awesome.min.css in Resources */,
+				6259596D1D0D8005005B5F90 /* background1.jpg in Resources */,
 				621E35221D0D597300DE5933 /* Simple-Line-Icons.woff in Resources */,
 				621E351D1D0D597300DE5933 /* glyphicons-halflings-regular.woff in Resources */,
+				621E35381D0D7C3B00DE5933 /* jqBootstrapValidation.js in Resources */,
 				621E35191D0D597300DE5933 /* FontAwesome.otf in Resources */,
 				621E35211D0D597300DE5933 /* Simple-Line-Icons.ttf in Resources */,
 				621E34EA1D0D561100DE5933 /* animate.min.css in Resources */,
+				6259596F1D0D8005005B5F90 /* background3.jpg in Resources */,
 				621E34E61D0D561100DE5933 /* jquery.countdown.min.js in Resources */,
 				621E34EE1D0D561100DE5933 /* style.css in Resources */,
 				621E34E71D0D561100DE5933 /* main.js in Resources */,
 				621E34ED1D0D561100DE5933 /* simple-line-icons.css in Resources */,
+				6259596C1D0D8005005B5F90 /* background0.jpg in Resources */,
 				621E351F1D0D597300DE5933 /* Simple-Line-Icons.eot in Resources */,
 				621E34E51D0D561100DE5933 /* jquery-1.11.3.min.js in Resources */,
 				621E35161D0D597300DE5933 /* fontawesome-webfont.ttf in Resources */,
@@ -447,6 +488,7 @@
 				621E34C21D0CBA3C00DE5933 /* DataStore.swift in Sources */,
 				6284AE011D0C117C001DB03D /* RegistrationsHandler.swift in Sources */,
 				621E34CD1D0CC48200DE5933 /* Registration.swift in Sources */,
+				621E35331D0D782F00DE5933 /* FormHandler.swift in Sources */,
 				62C573D51D0BFA460034B6E6 /* IndexHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
