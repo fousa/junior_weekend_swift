@@ -10,6 +10,65 @@
 		621E34C21D0CBA3C00DE5933 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621E34C11D0CBA3C00DE5933 /* DataStore.swift */; };
 		621E34C41D0CBE1000DE5933 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621E34C31D0CBE1000DE5933 /* Logger.swift */; };
 		621E34CD1D0CC48200DE5933 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621E34CC1D0CC48200DE5933 /* Registration.swift */; };
+		621E34E31D0D561100DE5933 /* backstretch.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34D61D0D561100DE5933 /* backstretch.min.js */; };
+		621E34E41D0D561100DE5933 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34D71D0D561100DE5933 /* bootstrap.min.js */; };
+		621E34E51D0D561100DE5933 /* jquery-1.11.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34D81D0D561100DE5933 /* jquery-1.11.3.min.js */; };
+		621E34E61D0D561100DE5933 /* jquery.countdown.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34D91D0D561100DE5933 /* jquery.countdown.min.js */; };
+		621E34E71D0D561100DE5933 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34DA1D0D561100DE5933 /* main.js */; };
+		621E34E81D0D561100DE5933 /* smooth-scroll.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34DB1D0D561100DE5933 /* smooth-scroll.js */; };
+		621E34E91D0D561100DE5933 /* wow.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 621E34DC1D0D561100DE5933 /* wow.min.js */; };
+		621E34EA1D0D561100DE5933 /* animate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 621E34DE1D0D561100DE5933 /* animate.min.css */; };
+		621E34EB1D0D561100DE5933 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 621E34DF1D0D561100DE5933 /* bootstrap.min.css */; };
+		621E34EC1D0D561100DE5933 /* font-awesome.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 621E34E01D0D561100DE5933 /* font-awesome.min.css */; };
+		621E34ED1D0D561100DE5933 /* simple-line-icons.css in Resources */ = {isa = PBXBuildFile; fileRef = 621E34E11D0D561100DE5933 /* simple-line-icons.css */; };
+		621E34EE1D0D561100DE5933 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 621E34E21D0D561100DE5933 /* style.css */; };
+		621E34EF1D0D562300DE5933 /* backstretch.min.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34D61D0D561100DE5933 /* backstretch.min.js */; };
+		621E34F01D0D562300DE5933 /* bootstrap.min.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34D71D0D561100DE5933 /* bootstrap.min.js */; };
+		621E34F11D0D562300DE5933 /* jquery-1.11.3.min.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34D81D0D561100DE5933 /* jquery-1.11.3.min.js */; };
+		621E34F21D0D562300DE5933 /* jquery.countdown.min.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34D91D0D561100DE5933 /* jquery.countdown.min.js */; };
+		621E34F31D0D562300DE5933 /* main.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34DA1D0D561100DE5933 /* main.js */; };
+		621E34F41D0D562300DE5933 /* smooth-scroll.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34DB1D0D561100DE5933 /* smooth-scroll.js */; };
+		621E34F51D0D562300DE5933 /* wow.min.js in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34DC1D0D561100DE5933 /* wow.min.js */; };
+		621E34F61D0D562900DE5933 /* animate.min.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34DE1D0D561100DE5933 /* animate.min.css */; };
+		621E34F71D0D562900DE5933 /* bootstrap.min.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34DF1D0D561100DE5933 /* bootstrap.min.css */; };
+		621E34F81D0D562900DE5933 /* font-awesome.min.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34E01D0D561100DE5933 /* font-awesome.min.css */; };
+		621E34F91D0D562900DE5933 /* simple-line-icons.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34E11D0D561100DE5933 /* simple-line-icons.css */; };
+		621E34FA1D0D562900DE5933 /* style.css in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34E21D0D561100DE5933 /* style.css */; };
+		621E34FD1D0D577300DE5933 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 621E34FC1D0D577300DE5933 /* background.jpg */; };
+		621E34FE1D0D578200DE5933 /* background.jpg in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34FC1D0D577300DE5933 /* background.jpg */; };
+		621E35011D0D58EB00DE5933 /* bg_pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 621E35001D0D58EB00DE5933 /* bg_pattern.png */; };
+		621E35021D0D590B00DE5933 /* bg_pattern.png in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35001D0D58EB00DE5933 /* bg_pattern.png */; };
+		621E35031D0D590B00DE5933 /* bootstrap.min.css.map in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E34FF1D0D58D900DE5933 /* bootstrap.min.css.map */; };
+		621E35141D0D597300DE5933 /* fontawesome-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 621E35051D0D597300DE5933 /* fontawesome-webfont.eot */; };
+		621E35151D0D597300DE5933 /* fontawesome-webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = 621E35061D0D597300DE5933 /* fontawesome-webfont.svg */; };
+		621E35161D0D597300DE5933 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621E35071D0D597300DE5933 /* fontawesome-webfont.ttf */; };
+		621E35171D0D597300DE5933 /* fontawesome-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 621E35081D0D597300DE5933 /* fontawesome-webfont.woff */; };
+		621E35181D0D597300DE5933 /* fontawesome-webfont.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 621E35091D0D597300DE5933 /* fontawesome-webfont.woff2 */; };
+		621E35191D0D597300DE5933 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 621E350A1D0D597300DE5933 /* FontAwesome.otf */; };
+		621E351A1D0D597300DE5933 /* glyphicons-halflings-regular.eot in Resources */ = {isa = PBXBuildFile; fileRef = 621E350B1D0D597300DE5933 /* glyphicons-halflings-regular.eot */; };
+		621E351B1D0D597300DE5933 /* glyphicons-halflings-regular.svg in Resources */ = {isa = PBXBuildFile; fileRef = 621E350C1D0D597300DE5933 /* glyphicons-halflings-regular.svg */; };
+		621E351C1D0D597300DE5933 /* glyphicons-halflings-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621E350D1D0D597300DE5933 /* glyphicons-halflings-regular.ttf */; };
+		621E351D1D0D597300DE5933 /* glyphicons-halflings-regular.woff in Resources */ = {isa = PBXBuildFile; fileRef = 621E350E1D0D597300DE5933 /* glyphicons-halflings-regular.woff */; };
+		621E351E1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 621E350F1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 */; };
+		621E351F1D0D597300DE5933 /* Simple-Line-Icons.eot in Resources */ = {isa = PBXBuildFile; fileRef = 621E35101D0D597300DE5933 /* Simple-Line-Icons.eot */; };
+		621E35201D0D597300DE5933 /* Simple-Line-Icons.svg in Resources */ = {isa = PBXBuildFile; fileRef = 621E35111D0D597300DE5933 /* Simple-Line-Icons.svg */; };
+		621E35211D0D597300DE5933 /* Simple-Line-Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */; };
+		621E35221D0D597300DE5933 /* Simple-Line-Icons.woff in Resources */ = {isa = PBXBuildFile; fileRef = 621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */; };
+		621E35231D0D597C00DE5933 /* fontawesome-webfont.eot in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35051D0D597300DE5933 /* fontawesome-webfont.eot */; };
+		621E35241D0D597C00DE5933 /* fontawesome-webfont.svg in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35061D0D597300DE5933 /* fontawesome-webfont.svg */; };
+		621E35251D0D597C00DE5933 /* fontawesome-webfont.ttf in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35071D0D597300DE5933 /* fontawesome-webfont.ttf */; };
+		621E35261D0D597C00DE5933 /* fontawesome-webfont.woff in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35081D0D597300DE5933 /* fontawesome-webfont.woff */; };
+		621E35271D0D597C00DE5933 /* fontawesome-webfont.woff2 in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35091D0D597300DE5933 /* fontawesome-webfont.woff2 */; };
+		621E35281D0D597C00DE5933 /* FontAwesome.otf in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E350A1D0D597300DE5933 /* FontAwesome.otf */; };
+		621E35291D0D597C00DE5933 /* glyphicons-halflings-regular.eot in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E350B1D0D597300DE5933 /* glyphicons-halflings-regular.eot */; };
+		621E352A1D0D597C00DE5933 /* glyphicons-halflings-regular.svg in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E350C1D0D597300DE5933 /* glyphicons-halflings-regular.svg */; };
+		621E352B1D0D597C00DE5933 /* glyphicons-halflings-regular.ttf in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E350D1D0D597300DE5933 /* glyphicons-halflings-regular.ttf */; };
+		621E352C1D0D597C00DE5933 /* glyphicons-halflings-regular.woff in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E350E1D0D597300DE5933 /* glyphicons-halflings-regular.woff */; };
+		621E352D1D0D597C00DE5933 /* glyphicons-halflings-regular.woff2 in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E350F1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 */; };
+		621E352E1D0D597C00DE5933 /* Simple-Line-Icons.eot in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35101D0D597300DE5933 /* Simple-Line-Icons.eot */; };
+		621E352F1D0D597C00DE5933 /* Simple-Line-Icons.svg in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35111D0D597300DE5933 /* Simple-Line-Icons.svg */; };
+		621E35301D0D597C00DE5933 /* Simple-Line-Icons.ttf in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */; };
+		621E35311D0D597C00DE5933 /* Simple-Line-Icons.woff in Copy template files */ = {isa = PBXBuildFile; fileRef = 621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */; };
 		6284ADFD1D0C1103001DB03D /* PostgreSQL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */; };
 		6284ADFF1D0C1127001DB03D /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284ADFE1D0C1127001DB03D /* Init.swift */; };
 		6284AE011D0C117C001DB03D /* RegistrationsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */; };
@@ -29,6 +88,36 @@
 			dstPath = webroot;
 			dstSubfolderSpec = 16;
 			files = (
+				621E35231D0D597C00DE5933 /* fontawesome-webfont.eot in Copy template files */,
+				621E35241D0D597C00DE5933 /* fontawesome-webfont.svg in Copy template files */,
+				621E35251D0D597C00DE5933 /* fontawesome-webfont.ttf in Copy template files */,
+				621E35261D0D597C00DE5933 /* fontawesome-webfont.woff in Copy template files */,
+				621E35271D0D597C00DE5933 /* fontawesome-webfont.woff2 in Copy template files */,
+				621E35281D0D597C00DE5933 /* FontAwesome.otf in Copy template files */,
+				621E35291D0D597C00DE5933 /* glyphicons-halflings-regular.eot in Copy template files */,
+				621E352A1D0D597C00DE5933 /* glyphicons-halflings-regular.svg in Copy template files */,
+				621E352B1D0D597C00DE5933 /* glyphicons-halflings-regular.ttf in Copy template files */,
+				621E352C1D0D597C00DE5933 /* glyphicons-halflings-regular.woff in Copy template files */,
+				621E352D1D0D597C00DE5933 /* glyphicons-halflings-regular.woff2 in Copy template files */,
+				621E352E1D0D597C00DE5933 /* Simple-Line-Icons.eot in Copy template files */,
+				621E352F1D0D597C00DE5933 /* Simple-Line-Icons.svg in Copy template files */,
+				621E35301D0D597C00DE5933 /* Simple-Line-Icons.ttf in Copy template files */,
+				621E35311D0D597C00DE5933 /* Simple-Line-Icons.woff in Copy template files */,
+				621E35021D0D590B00DE5933 /* bg_pattern.png in Copy template files */,
+				621E35031D0D590B00DE5933 /* bootstrap.min.css.map in Copy template files */,
+				621E34FE1D0D578200DE5933 /* background.jpg in Copy template files */,
+				621E34F61D0D562900DE5933 /* animate.min.css in Copy template files */,
+				621E34F71D0D562900DE5933 /* bootstrap.min.css in Copy template files */,
+				621E34F81D0D562900DE5933 /* font-awesome.min.css in Copy template files */,
+				621E34F91D0D562900DE5933 /* simple-line-icons.css in Copy template files */,
+				621E34FA1D0D562900DE5933 /* style.css in Copy template files */,
+				621E34EF1D0D562300DE5933 /* backstretch.min.js in Copy template files */,
+				621E34F01D0D562300DE5933 /* bootstrap.min.js in Copy template files */,
+				621E34F11D0D562300DE5933 /* jquery-1.11.3.min.js in Copy template files */,
+				621E34F21D0D562300DE5933 /* jquery.countdown.min.js in Copy template files */,
+				621E34F31D0D562300DE5933 /* main.js in Copy template files */,
+				621E34F41D0D562300DE5933 /* smooth-scroll.js in Copy template files */,
+				621E34F51D0D562300DE5933 /* wow.min.js in Copy template files */,
 				6284AE041D0C1202001DB03D /* registrations.mustache in Copy template files */,
 				62C573D71D0BFD820034B6E6 /* index.mustache in Copy template files */,
 			);
@@ -41,6 +130,36 @@
 		621E34C11D0CBA3C00DE5933 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		621E34C31D0CBE1000DE5933 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		621E34CC1D0CC48200DE5933 /* Registration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		621E34D61D0D561100DE5933 /* backstretch.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = backstretch.min.js; sourceTree = "<group>"; };
+		621E34D71D0D561100DE5933 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		621E34D81D0D561100DE5933 /* jquery-1.11.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.11.3.min.js"; sourceTree = "<group>"; };
+		621E34D91D0D561100DE5933 /* jquery.countdown.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.countdown.min.js; sourceTree = "<group>"; };
+		621E34DA1D0D561100DE5933 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		621E34DB1D0D561100DE5933 /* smooth-scroll.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "smooth-scroll.js"; sourceTree = "<group>"; };
+		621E34DC1D0D561100DE5933 /* wow.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wow.min.js; sourceTree = "<group>"; };
+		621E34DE1D0D561100DE5933 /* animate.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = animate.min.css; sourceTree = "<group>"; };
+		621E34DF1D0D561100DE5933 /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		621E34E01D0D561100DE5933 /* font-awesome.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "font-awesome.min.css"; sourceTree = "<group>"; };
+		621E34E11D0D561100DE5933 /* simple-line-icons.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "simple-line-icons.css"; sourceTree = "<group>"; };
+		621E34E21D0D561100DE5933 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		621E34FC1D0D577300DE5933 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		621E34FF1D0D58D900DE5933 /* bootstrap.min.css.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = bootstrap.min.css.map; sourceTree = "<group>"; };
+		621E35001D0D58EB00DE5933 /* bg_pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_pattern.png; sourceTree = "<group>"; };
+		621E35051D0D597300DE5933 /* fontawesome-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.eot"; sourceTree = "<group>"; };
+		621E35061D0D597300DE5933 /* fontawesome-webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "fontawesome-webfont.svg"; sourceTree = "<group>"; };
+		621E35071D0D597300DE5933 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		621E35081D0D597300DE5933 /* fontawesome-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff"; sourceTree = "<group>"; };
+		621E35091D0D597300DE5933 /* fontawesome-webfont.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.woff2"; sourceTree = "<group>"; };
+		621E350A1D0D597300DE5933 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		621E350B1D0D597300DE5933 /* glyphicons-halflings-regular.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.eot"; sourceTree = "<group>"; };
+		621E350C1D0D597300DE5933 /* glyphicons-halflings-regular.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "glyphicons-halflings-regular.svg"; sourceTree = "<group>"; };
+		621E350D1D0D597300DE5933 /* glyphicons-halflings-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.ttf"; sourceTree = "<group>"; };
+		621E350E1D0D597300DE5933 /* glyphicons-halflings-regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff"; sourceTree = "<group>"; };
+		621E350F1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "glyphicons-halflings-regular.woff2"; sourceTree = "<group>"; };
+		621E35101D0D597300DE5933 /* Simple-Line-Icons.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple-Line-Icons.eot"; sourceTree = "<group>"; };
+		621E35111D0D597300DE5933 /* Simple-Line-Icons.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Simple-Line-Icons.svg"; sourceTree = "<group>"; };
+		621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple-Line-Icons.ttf"; sourceTree = "<group>"; };
+		621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple-Line-Icons.woff"; sourceTree = "<group>"; };
 		6284ADFC1D0C1103001DB03D /* PostgreSQL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PostgreSQL.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JuniorWeekend-cqwnbvxeukmfhuhfepijbtjwynma/Build/Products/Debug/PostgreSQL.framework"; sourceTree = "<group>"; };
 		6284ADFE1D0C1127001DB03D /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
 		6284AE001D0C117C001DB03D /* RegistrationsHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationsHandler.swift; sourceTree = "<group>"; };
@@ -84,6 +203,66 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		621E34D51D0D561100DE5933 /* Javascript */ = {
+			isa = PBXGroup;
+			children = (
+				621E34D61D0D561100DE5933 /* backstretch.min.js */,
+				621E34D71D0D561100DE5933 /* bootstrap.min.js */,
+				621E34D81D0D561100DE5933 /* jquery-1.11.3.min.js */,
+				621E34D91D0D561100DE5933 /* jquery.countdown.min.js */,
+				621E34DA1D0D561100DE5933 /* main.js */,
+				621E34DB1D0D561100DE5933 /* smooth-scroll.js */,
+				621E34DC1D0D561100DE5933 /* wow.min.js */,
+			);
+			name = Javascript;
+			path = JuniorWeekend/App/Views/Javascript;
+			sourceTree = SOURCE_ROOT;
+		};
+		621E34DD1D0D561100DE5933 /* Stylesheets */ = {
+			isa = PBXGroup;
+			children = (
+				621E34FF1D0D58D900DE5933 /* bootstrap.min.css.map */,
+				621E34DE1D0D561100DE5933 /* animate.min.css */,
+				621E34DF1D0D561100DE5933 /* bootstrap.min.css */,
+				621E34E01D0D561100DE5933 /* font-awesome.min.css */,
+				621E34E11D0D561100DE5933 /* simple-line-icons.css */,
+				621E34E21D0D561100DE5933 /* style.css */,
+			);
+			name = Stylesheets;
+			path = JuniorWeekend/App/Views/Stylesheets;
+			sourceTree = SOURCE_ROOT;
+		};
+		621E34FB1D0D577300DE5933 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				621E35001D0D58EB00DE5933 /* bg_pattern.png */,
+				621E34FC1D0D577300DE5933 /* background.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		621E35041D0D597300DE5933 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				621E35051D0D597300DE5933 /* fontawesome-webfont.eot */,
+				621E35061D0D597300DE5933 /* fontawesome-webfont.svg */,
+				621E35071D0D597300DE5933 /* fontawesome-webfont.ttf */,
+				621E35081D0D597300DE5933 /* fontawesome-webfont.woff */,
+				621E35091D0D597300DE5933 /* fontawesome-webfont.woff2 */,
+				621E350A1D0D597300DE5933 /* FontAwesome.otf */,
+				621E350B1D0D597300DE5933 /* glyphicons-halflings-regular.eot */,
+				621E350C1D0D597300DE5933 /* glyphicons-halflings-regular.svg */,
+				621E350D1D0D597300DE5933 /* glyphicons-halflings-regular.ttf */,
+				621E350E1D0D597300DE5933 /* glyphicons-halflings-regular.woff */,
+				621E350F1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 */,
+				621E35101D0D597300DE5933 /* Simple-Line-Icons.eot */,
+				621E35111D0D597300DE5933 /* Simple-Line-Icons.svg */,
+				621E35121D0D597300DE5933 /* Simple-Line-Icons.ttf */,
+				621E35131D0D597300DE5933 /* Simple-Line-Icons.woff */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		62C573B91D0BF85A0034B6E6 = {
 			isa = PBXGroup;
 			children = (
@@ -114,8 +293,12 @@
 		62C573D01D0BF9EF0034B6E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				621E35041D0D597300DE5933 /* Fonts */,
+				621E34FB1D0D577300DE5933 /* Images */,
 				62C573D11D0BF9FD0034B6E6 /* index.mustache */,
+				621E34D51D0D561100DE5933 /* Javascript */,
 				6284AE021D0C1199001DB03D /* registrations.mustache */,
+				621E34DD1D0D561100DE5933 /* Stylesheets */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,8 +401,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621E34EB1D0D561100DE5933 /* bootstrap.min.css in Resources */,
 				6284AE031D0C1199001DB03D /* registrations.mustache in Resources */,
+				621E351C1D0D597300DE5933 /* glyphicons-halflings-regular.ttf in Resources */,
+				621E34E81D0D561100DE5933 /* smooth-scroll.js in Resources */,
+				621E35201D0D597300DE5933 /* Simple-Line-Icons.svg in Resources */,
+				621E34E31D0D561100DE5933 /* backstretch.min.js in Resources */,
+				621E351E1D0D597300DE5933 /* glyphicons-halflings-regular.woff2 in Resources */,
+				621E351B1D0D597300DE5933 /* glyphicons-halflings-regular.svg in Resources */,
+				621E35141D0D597300DE5933 /* fontawesome-webfont.eot in Resources */,
 				62C573D21D0BF9FD0034B6E6 /* index.mustache in Resources */,
+				621E34E91D0D561100DE5933 /* wow.min.js in Resources */,
+				621E351A1D0D597300DE5933 /* glyphicons-halflings-regular.eot in Resources */,
+				621E34FD1D0D577300DE5933 /* background.jpg in Resources */,
+				621E35011D0D58EB00DE5933 /* bg_pattern.png in Resources */,
+				621E35151D0D597300DE5933 /* fontawesome-webfont.svg in Resources */,
+				621E35171D0D597300DE5933 /* fontawesome-webfont.woff in Resources */,
+				621E34EC1D0D561100DE5933 /* font-awesome.min.css in Resources */,
+				621E35221D0D597300DE5933 /* Simple-Line-Icons.woff in Resources */,
+				621E351D1D0D597300DE5933 /* glyphicons-halflings-regular.woff in Resources */,
+				621E35191D0D597300DE5933 /* FontAwesome.otf in Resources */,
+				621E35211D0D597300DE5933 /* Simple-Line-Icons.ttf in Resources */,
+				621E34EA1D0D561100DE5933 /* animate.min.css in Resources */,
+				621E34E61D0D561100DE5933 /* jquery.countdown.min.js in Resources */,
+				621E34EE1D0D561100DE5933 /* style.css in Resources */,
+				621E34E71D0D561100DE5933 /* main.js in Resources */,
+				621E34ED1D0D561100DE5933 /* simple-line-icons.css in Resources */,
+				621E351F1D0D597300DE5933 /* Simple-Line-Icons.eot in Resources */,
+				621E34E51D0D561100DE5933 /* jquery-1.11.3.min.js in Resources */,
+				621E35161D0D597300DE5933 /* fontawesome-webfont.ttf in Resources */,
+				621E35181D0D597300DE5933 /* fontawesome-webfont.woff2 in Resources */,
+				621E34E41D0D561100DE5933 /* bootstrap.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
